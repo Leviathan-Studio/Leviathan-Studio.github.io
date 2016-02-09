@@ -1,0 +1,106 @@
+{
+  "behaviors": {
+    "BasicEntitiesBehavior": {
+      "scriptId": "10",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "GenerationBehavior": {
+      "scriptId": "34",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "villageX",
+          "type": "number"
+        },
+        {
+          "name": "villageY",
+          "type": "number"
+        },
+        {
+          "name": "col",
+          "type": "number"
+        },
+        {
+          "name": "row",
+          "type": "number"
+        },
+        {
+          "name": "player",
+          "type": "number"
+        },
+        {
+          "name": "auto",
+          "type": "boolean"
+        },
+        {
+          "name": "villager",
+          "type": "number"
+        },
+        {
+          "name": "wolf",
+          "type": "number"
+        },
+        {
+          "name": "seer",
+          "type": "number"
+        },
+        {
+          "name": "hunter",
+          "type": "number"
+        },
+        {
+          "name": "villagerHouse",
+          "type": "string"
+        },
+        {
+          "name": "seerHouse",
+          "type": "string"
+        },
+        {
+          "name": "hunterHouse",
+          "type": "string"
+        },
+        {
+          "name": "pathway4",
+          "type": "string"
+        }
+      ]
+    },
+    "HUDBehavior": {
+      "scriptId": "62",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PlayButtonBehavior": {
+      "scriptId": "66",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isHover",
+          "type": "boolean"
+        }
+      ]
+    },
+    "QuitButtonBehavior": {
+      "scriptId": "58",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isHover",
+          "type": "boolean"
+        }
+      ]
+    }
+  }
+}

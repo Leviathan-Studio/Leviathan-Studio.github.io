@@ -1,0 +1,257 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "2",
+      "name": "Player",
+      "children": [
+        {
+          "id": "0",
+          "name": "Camera",
+          "children": [],
+          "components": [
+            {
+              "type": "Camera",
+              "config": {
+                "mode": "orthographic",
+                "fov": 45,
+                "orthographicScale": 25,
+                "viewport": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1,
+                  "height": 1
+                },
+                "depth": 0,
+                "nearClippingPlane": 0.1,
+                "farClippingPlane": 1000
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 10
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "7",
+            "animationId": null,
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "BasicEntitiesBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        },
+        {
+          "type": "ArcadeBody2D",
+          "config": {
+            "type": "box",
+            "movable": true,
+            "width": 2.5,
+            "height": 1.5,
+            "offset": {
+              "x": 0,
+              "y": -0.5
+            },
+            "tileMapAssetId": null,
+            "tileSetPropertyName": null,
+            "layersIndex": null
+          },
+          "id": "2"
+        }
+      ],
+      "position": {
+        "x": 47,
+        "y": 23,
+        "z": 3
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "7",
+      "name": "Map Render",
+      "children": [
+        {
+          "id": "3",
+          "name": "Map",
+          "children": [],
+          "components": [
+            {
+              "type": "TileMapRenderer",
+              "config": {
+                "tileMapAssetId": "29",
+                "tileSetAssetId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            },
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "type": "tileMap",
+                "movable": true,
+                "width": 1,
+                "height": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "tileMapAssetId": "29",
+                "tileSetPropertyName": null,
+                "layersIndex": "2"
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "GenerationBehavior",
+            "propertyValues": {
+              "ressource": {
+                "type": "string",
+                "value": "Maps/Hunter House/Hunter House (Scene)"
+              },
+              "villageX": {
+                "type": "number",
+                "value": 0
+              },
+              "villageY": {
+                "type": "number",
+                "value": 0
+              },
+              "row": {
+                "type": "number",
+                "value": 4
+              },
+              "line": {
+                "type": "number",
+                "value": 4
+              },
+              "player": {
+                "type": "number",
+                "value": 8
+              },
+              "auto": {
+                "type": "boolean",
+                "value": false
+              },
+              "villager": {
+                "type": "number",
+                "value": 4
+              },
+              "wolf": {
+                "type": "number",
+                "value": 2
+              },
+              "seer": {
+                "type": "number",
+                "value": 1
+              },
+              "hunter": {
+                "type": "number",
+                "value": 1
+              },
+              "col": {
+                "type": "number",
+                "value": 4
+              }
+            }
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+uniform sampler2D map;
+uniform float time;
+varying vec2 vUv;
+
+void main() {
+  vec2 uv = vUv;
+  uv.x -= abs(uv.y * 2.0 - 1.0) * 0.01 * sin(time * 2.0 + uv.y * 10.0);
+  
+  vec4 vecColor = texture2D(map, uv);
+  
+  gl_FragColor = vecColor;
+  
+  
+}

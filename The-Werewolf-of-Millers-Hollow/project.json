@@ -1,0 +1,224 @@
+{
+  "name": "The Werewolves of Miller's Hollow",
+  "assets": [
+    {
+      "id": "0",
+      "name": "Scene",
+      "type": "scene"
+    },
+    {
+      "id": "12",
+      "name": "Tile Set",
+      "type": null,
+      "children": [
+        {
+          "id": "28",
+          "name": "Tile Set (Main)",
+          "type": "tileSet"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Maps",
+      "type": null,
+      "children": [
+        {
+          "id": "29",
+          "name": "Village",
+          "type": "tileMap"
+        },
+        {
+          "id": "51",
+          "name": "Pathway",
+          "type": null,
+          "children": [
+            {
+              "id": "52",
+              "name": "Pathway4",
+              "type": "tileMap"
+            },
+            {
+              "id": "55",
+              "name": "Pathway4 Scene",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "41",
+          "name": "Villager House",
+          "type": null,
+          "children": [
+            {
+              "id": "42",
+              "name": "Villager House",
+              "type": "tileMap"
+            },
+            {
+              "id": "44",
+              "name": "Villager House Scene",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "45",
+          "name": "Seer House",
+          "type": null,
+          "children": [
+            {
+              "id": "46",
+              "name": "Seer House",
+              "type": "tileMap"
+            },
+            {
+              "id": "47",
+              "name": "Seer House Scene",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "33",
+          "name": "Hunter House",
+          "type": null,
+          "children": [
+            {
+              "id": "31",
+              "name": "Hunter House",
+              "type": "tileMap"
+            },
+            {
+              "id": "32",
+              "name": "Hunter House Scene",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "34",
+          "name": "Generation",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Entities",
+      "type": null,
+      "children": [
+        {
+          "id": "8",
+          "name": "Werewolf",
+          "type": null,
+          "children": [
+            {
+              "id": "7",
+              "name": "Werewolf",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "name": "BasicEntities",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Behaviors",
+      "type": null,
+      "children": [
+        {
+          "id": "62",
+          "name": "HUDBehavior",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Title Screen",
+      "type": null,
+      "children": [
+        {
+          "id": "35",
+          "name": "Title Screen (Scene)",
+          "type": "scene"
+        },
+        {
+          "id": "54",
+          "name": "Title",
+          "type": null,
+          "children": [
+            {
+              "id": "53",
+              "name": "Title",
+              "type": "sprite"
+            },
+            {
+              "id": "49",
+              "name": "Title Shader",
+              "type": "shader"
+            },
+            {
+              "id": "71",
+              "name": "Vignette Shader",
+              "type": "shader"
+            },
+            {
+              "id": "70",
+              "name": "Vignette",
+              "type": "sprite"
+            },
+            {
+              "id": "72",
+              "name": "Night Filter",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "56",
+          "name": "Buttons",
+          "type": null,
+          "children": [
+            {
+              "id": "57",
+              "name": "Buttons",
+              "type": "sprite"
+            },
+            {
+              "id": "58",
+              "name": "QuitButtonBehavior",
+              "type": "script"
+            },
+            {
+              "id": "66",
+              "name": "PlayButtonBehavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "68",
+          "name": "Title Screen Village",
+          "type": "tileMap"
+        },
+        {
+          "id": "69",
+          "name": "Tile Map (Grass)",
+          "type": "tileMap"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Font (Feast of Flesh)",
+      "type": "font"
+    }
+  ]
+}
